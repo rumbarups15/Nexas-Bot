@@ -126,10 +126,10 @@ Variables disponibles dans les messages : `{user}`, `{server}` et `{count}`.
 | `!invite`       | Lien d'invitation                             |
 ## Structure du projet
 ```
-├── index.js            # Point d'entrée : client, chargement des commandes, base de données
-├── config.json         # Token, préfixe, propriétaire, rôle automatique
+├── index.js
+├── config.json
 └── commands/
-    ├── automoderation/ # Anti-invitations, anti-raid, anti-spam de mentions
+    ├── automoderation/
     ├── economy/
     ├── levelSystem/
     ├── logging/
